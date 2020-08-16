@@ -6,6 +6,7 @@ nav {
     font-size: 14px;
     font-family: georgia;
     text-align: center;
+    background: #fb0;
 }
 div {
     width: 119px;
@@ -13,9 +14,11 @@ div {
     float: left;
     padding: 10px 0;
 }
-background: #fb0
-background: -webkit-linear-gradient(#fb0, #950);
-background:    -moz-linear-gradient(#fb0, #950);
-background:     -ms-linear-gradient(#fb0, #950);
-background:      -o-linear-gradient(#fb0, #950);
-background:         linear-gradient(#fb0, #950);
+a:first-child div {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+a:last-child div {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
